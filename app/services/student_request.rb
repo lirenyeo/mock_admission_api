@@ -9,6 +9,6 @@ class StudentRequest
   end
 
   def get_student_info
-    User.where(email: @emails).to_json(only: [:first_name, :last_name, :slack_id, :facebook_id, :email])
+    User.where(email: @emails).to_json(only: [:first_name, :last_name, :email])
   end
 end

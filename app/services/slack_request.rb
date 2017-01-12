@@ -13,7 +13,7 @@ class SlackRequest
     if token.nil?
       "Can't find slack token with the given uuid".to_json
     else
-      token.to_json(only: [:slack_token, :title])
+      token.to_json(only: [:slack_token])
     end
   end
 end
