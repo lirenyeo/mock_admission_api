@@ -5,6 +5,6 @@ User.create(first_name: "Guy", last_name: "WihoutSlack", email: "guywithoutslack
 
 Course.create(
     title: "Web Development Bootcamp",
-    course_uuid: "ccde38ff-9663-4686-82ee-04b4edf1b7c0",
+    course_uuid: "742574f2-0ed5-49c7-91d7-091af00b5acf",
     slack_token: ENV["slack_token"]
   )
